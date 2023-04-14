@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace APITestApp
+namespace APIClientApp
 {
     public static class AppConfigReader
     {

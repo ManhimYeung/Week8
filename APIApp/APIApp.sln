@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.4.33403.182
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIClientApp", "APIClientApp\APIClientApp.csproj", "{553305CD-46D1-4CA2-9B6E-282F1CB3A247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIClientApp", "APIClientApp\APIClientApp.csproj", "{C7805D5E-18DA-4EE5-9E28-55EF5ED7C12A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestApp", "APITestApp\APITestApp.csproj", "{ECAB50AF-E9CD-42BE-B433-4FA08D16B86F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITestApp", "APITestApp\APITestApp.csproj", "{368BF0DB-3398-4A87-8642-00B4966D32F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTestApp.SpecFlow", "ApiTestApp.SpecFlow\ApiTestApp.SpecFlow.csproj", "{3856E0DD-7CD5-45C7-A77A-75782AF65A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIClient_HttpClient", "APIClient_HttpClient\APIClient_HttpClient.csproj", "{92F77025-811D-40C5-B7D7-E6ADA9BFDD87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{553305CD-46D1-4CA2-9B6E-282F1CB3A247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{553305CD-46D1-4CA2-9B6E-282F1CB3A247}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{553305CD-46D1-4CA2-9B6E-282F1CB3A247}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{553305CD-46D1-4CA2-9B6E-282F1CB3A247}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ECAB50AF-E9CD-42BE-B433-4FA08D16B86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECAB50AF-E9CD-42BE-B433-4FA08D16B86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECAB50AF-E9CD-42BE-B433-4FA08D16B86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECAB50AF-E9CD-42BE-B433-4FA08D16B86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7805D5E-18DA-4EE5-9E28-55EF5ED7C12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7805D5E-18DA-4EE5-9E28-55EF5ED7C12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7805D5E-18DA-4EE5-9E28-55EF5ED7C12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7805D5E-18DA-4EE5-9E28-55EF5ED7C12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368BF0DB-3398-4A87-8642-00B4966D32F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368BF0DB-3398-4A87-8642-00B4966D32F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368BF0DB-3398-4A87-8642-00B4966D32F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368BF0DB-3398-4A87-8642-00B4966D32F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3856E0DD-7CD5-45C7-A77A-75782AF65A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3856E0DD-7CD5-45C7-A77A-75782AF65A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3856E0DD-7CD5-45C7-A77A-75782AF65A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3856E0DD-7CD5-45C7-A77A-75782AF65A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F77025-811D-40C5-B7D7-E6ADA9BFDD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F77025-811D-40C5-B7D7-E6ADA9BFDD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F77025-811D-40C5-B7D7-E6ADA9BFDD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F77025-811D-40C5-B7D7-E6ADA9BFDD87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AB25817F-6416-4856-80C8-9D1A4783E174}
+		SolutionGuid = {8C5A4FA1-4C8B-4AC9-A880-CF82791ED3F9}
 	EndGlobalSection
 EndGlobal
