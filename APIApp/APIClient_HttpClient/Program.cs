@@ -57,7 +57,7 @@ namespace APIClient_HttpClient
                 bulkPostcodeRequest.Headers.Add("Accept", "application/json");
                 var postcodes = new string[] { "EC2Y 5AS", "CF14 1RP" };
 
-                bulkPostcodeRequest.Content = JsonContent.Create(postcodes);
+                bulkPostcodeRequest.Content = JsonContent.Create(postcodes); // big thanks to lucas, glen and kevin here
                 bulkPostcodeRequest.RequestUri = new Uri($"https://api.postcodes.io/postcodes/{postcodes}");
 
                 try
@@ -70,7 +70,7 @@ namespace APIClient_HttpClient
                     // serialise
                     JObject jObject = JObject.Parse(bulkPostcodeResponse.Content.ReadAsStringAsync().Result);
                     // Query examples
-                    //Console.WriteLine(jObject["result"]["nuts"]);
+                    Console.WriteLine(jObject["result"][0]["result"]["nuts"]);
 
                 }
                 catch (Exception ex)
